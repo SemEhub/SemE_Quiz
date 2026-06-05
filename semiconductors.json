@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1001,
+    "topic": "Semiconductors",
+    "subtopic": "Intrinsic Semiconductor",
+    "difficulty": "Easy",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "Silicon belongs to which group in the periodic table?",
+    "options": [
+      "Group 13",
+      "Group 14",
+      "Group 15",
+      "Group 16"
+    ],
+    "answer": 1,
+    "explanation": "Silicon is a Group 14 element with four valence electrons."
+  },
+
+  {
+    "id": 1002,
+    "topic": "Semiconductors",
+    "subtopic": "Intrinsic Semiconductor",
+    "difficulty": "Easy",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "The energy gap of silicon at room temperature is approximately:",
+    "options": [
+      "0.66 eV",
+      "1.12 eV",
+      "1.43 eV",
+      "2.26 eV"
+    ],
+    "answer": 1,
+    "explanation": "Silicon has a bandgap of approximately 1.12 eV at room temperature."
+  },
+
+  {
+    "id": 1003,
+    "topic": "Semiconductors",
+    "subtopic": "Carrier Transport",
+    "difficulty": "Medium",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "Electron drift velocity increases with:",
+    "options": [
+      "Decreasing electric field",
+      "Increasing electric field",
+      "Decreasing temperature only",
+      "Decreasing carrier concentration"
+    ],
+    "answer": 1,
+    "explanation": "Drift velocity is proportional to electric field under low-field conditions."
+  },
+
+  {
+    "id": 1004,
+    "topic": "Semiconductors",
+    "subtopic": "PN Junction",
+    "difficulty": "Medium",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "The depletion region of a PN junction contains:",
+    "options": [
+      "Free electrons only",
+      "Free holes only",
+      "Mobile carriers only",
+      "Immobile ionized donors and acceptors"
+    ],
+    "answer": 3,
+    "explanation": "The depletion region contains fixed ionized impurities after carrier diffusion."
+  },
+
+  {
+    "id": 1005,
+    "topic": "Semiconductors",
+    "subtopic": "PN Junction",
+    "difficulty": "Medium",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "Forward biasing a PN junction generally:",
+    "options": [
+      "Increases depletion width",
+      "Reduces depletion width",
+      "Eliminates diffusion",
+      "Prevents carrier injection"
+    ],
+    "answer": 1,
+    "explanation": "Forward bias lowers the barrier potential and reduces depletion width."
+  },
+
+  {
+    "id": 1006,
+    "topic": "Semiconductors",
+    "subtopic": "MOSFET",
+    "difficulty": "Easy",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "Which device has the highest input impedance?",
+    "options": [
+      "MOSFET",
+      "BJT",
+      "PN Junction Diode",
+      "Zener Diode"
+    ],
+    "answer": 0,
+    "explanation": "The MOS gate is insulated by oxide, resulting in extremely high input impedance."
+  },
+
+  {
+    "id": 1007,
+    "topic": "Semiconductors",
+    "subtopic": "MOSFET",
+    "difficulty": "Medium",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "The threshold voltage of a MOSFET is the gate voltage at which:",
+    "options": [
+      "Avalanche breakdown occurs",
+      "The drain current becomes zero",
+      "Strong inversion begins",
+      "The oxide breaks down"
+    ],
+    "answer": 2,
+    "explanation": "Threshold voltage corresponds to the onset of strong inversion."
+  },
+
+  {
+    "id": 1008,
+    "topic": "Semiconductors",
+    "subtopic": "BJT",
+    "difficulty": "Medium",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "A BJT is primarily a:",
+    "options": [
+      "Voltage-controlled device",
+      "Current-controlled device",
+      "Magnetic device",
+      "Optical device"
+    ],
+    "answer": 1,
+    "explanation": "The collector current is controlled by the base current."
+  },
+
+  {
+    "id": 1009,
+    "topic": "Semiconductors",
+    "subtopic": "Carrier Transport",
+    "difficulty": "Hard",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "The Einstein relation connects:",
+    "options": [
+      "Current and voltage",
+      "Mobility and diffusion coefficient",
+      "Bandgap and temperature",
+      "Doping and mobility"
+    ],
+    "answer": 1,
+    "explanation": "The Einstein relation links diffusion coefficient and mobility."
+  },
+
+  {
+    "id": 1010,
+    "topic": "Semiconductors",
+    "subtopic": "Band Theory",
+    "difficulty": "Easy",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "The forbidden energy region between valence and conduction bands is called:",
+    "options": [
+      "Fermi level",
+      "Bandgap",
+      "Donor level",
+      "Acceptor level"
+    ],
+    "answer": 1,
+    "explanation": "The forbidden energy region is known as the bandgap."
+  }
+]
