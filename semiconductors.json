@@ -15,18 +15,39 @@
       "Group 16"
     ],
     "answer": 1,
-    "explanation": "Silicon is a Group 14 element with four valence electrons."
+    "explanation": "Silicon is a Group 14 element and has four valence electrons, making it suitable for forming covalent bonds in a crystal lattice.",
+    "explanationImages": []
   },
-
   {
     "id": 1002,
     "topic": "Semiconductors",
-    "subtopic": "Intrinsic Semiconductor",
+    "subtopic": "Band Theory",
     "difficulty": "Easy",
     "contributor": "Prof. JG Knot",
     "active": true,
     "image": "",
-    "question": "The energy gap of silicon at room temperature is approximately:",
+    "question": "The forbidden energy region between the valence band and conduction band is called:",
+    "options": [
+      "Fermi Level",
+      "Bandgap",
+      "Donor Level",
+      "Acceptor Level"
+    ],
+    "answer": 1,
+    "explanation": "The bandgap is the energy range where no electron states exist. Electrons must gain sufficient energy to cross this gap and participate in conduction.",
+    "explanationImages": [
+      "images/bandgap_diagram.png"
+    ]
+  },
+  {
+    "id": 1003,
+    "topic": "Semiconductors",
+    "subtopic": "Intrinsic Semiconductor",
+    "difficulty": "Medium",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "At room temperature, the bandgap of silicon is approximately:",
     "options": [
       "0.66 eV",
       "1.12 eV",
@@ -34,30 +55,53 @@
       "2.26 eV"
     ],
     "answer": 1,
-    "explanation": "Silicon has a bandgap of approximately 1.12 eV at room temperature."
+    "explanation": "The room-temperature bandgap of silicon is approximately 1.12 eV.",
+    "explanationImages": []
   },
-
   {
-    "id": 1003,
+    "id": 1004,
     "topic": "Semiconductors",
     "subtopic": "Carrier Transport",
     "difficulty": "Medium",
     "contributor": "Prof. JG Knot",
     "active": true,
     "image": "",
-    "question": "Electron drift velocity increases with:",
+    "question": "The drift current in a semiconductor is caused by:",
     "options": [
-      "Decreasing electric field",
-      "Increasing electric field",
-      "Decreasing temperature only",
-      "Decreasing carrier concentration"
+      "Carrier concentration gradient",
+      "Electric field",
+      "Temperature gradient",
+      "Optical excitation"
     ],
     "answer": 1,
-    "explanation": "Drift velocity is proportional to electric field under low-field conditions."
+    "explanation": "Drift current arises when charge carriers move under the influence of an externally applied electric field.",
+    "explanationImages": [
+      "images/drift_transport.png"
+    ]
   },
-
   {
-    "id": 1004,
+    "id": 1005,
+    "topic": "Semiconductors",
+    "subtopic": "Carrier Transport",
+    "difficulty": "Medium",
+    "contributor": "Prof. JG Knot",
+    "active": true,
+    "image": "",
+    "question": "The Einstein relation connects:",
+    "options": [
+      "Mobility and diffusion coefficient",
+      "Current and voltage",
+      "Bandgap and temperature",
+      "Doping and mobility"
+    ],
+    "answer": 0,
+    "explanation": "The Einstein relation links the diffusion coefficient and mobility through D/μ = kT/q.",
+    "explanationImages": [
+      "images/einstein_relation.png"
+    ]
+  },
+  {
+    "id": 1006,
     "topic": "Semiconductors",
     "subtopic": "PN Junction",
     "difficulty": "Medium",
@@ -66,17 +110,20 @@
     "image": "",
     "question": "The depletion region of a PN junction contains:",
     "options": [
-      "Free electrons only",
-      "Free holes only",
-      "Mobile carriers only",
-      "Immobile ionized donors and acceptors"
+      "Only free electrons",
+      "Only free holes",
+      "Mobile charge carriers",
+      "Fixed ionized donor and acceptor ions"
     ],
     "answer": 3,
-    "explanation": "The depletion region contains fixed ionized impurities after carrier diffusion."
+    "explanation": "The depletion region is depleted of mobile carriers and contains immobile ionized donors and acceptors.",
+    "explanationImages": [
+      "images/pn_depletion_region.png",
+      "images/electric_field_profile.png"
+    ]
   },
-
   {
-    "id": 1005,
+    "id": 1007,
     "topic": "Semiconductors",
     "subtopic": "PN Junction",
     "difficulty": "Medium",
@@ -91,56 +138,63 @@
       "Prevents carrier injection"
     ],
     "answer": 1,
-    "explanation": "Forward bias lowers the barrier potential and reduces depletion width."
+    "explanation": "Forward bias lowers the built-in potential barrier and reduces the depletion width, facilitating carrier injection.",
+    "explanationImages": [
+      "images/forward_bias_band_diagram.png"
+    ]
   },
-
   {
-    "id": 1006,
+    "id": 1008,
     "topic": "Semiconductors",
     "subtopic": "MOSFET",
     "difficulty": "Easy",
     "contributor": "Prof. JG Knot",
     "active": true,
-    "image": "",
+    "image": "images/mosfet_structure.png",
     "question": "Which device has the highest input impedance?",
     "options": [
       "MOSFET",
       "BJT",
       "PN Junction Diode",
-      "Zener Diode"
+      "SCR"
     ],
     "answer": 0,
-    "explanation": "The MOS gate is insulated by oxide, resulting in extremely high input impedance."
+    "explanation": "The MOSFET gate is insulated from the channel by a thin oxide layer, resulting in extremely high input impedance.",
+    "explanationImages": [
+      "images/mosfet_gate_oxide.png"
+    ]
   },
-
   {
-    "id": 1007,
+    "id": 1009,
     "topic": "Semiconductors",
     "subtopic": "MOSFET",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "contributor": "Prof. JG Knot",
     "active": true,
     "image": "",
-    "question": "The threshold voltage of a MOSFET is the gate voltage at which:",
+    "question": "The threshold voltage of a MOSFET corresponds to the onset of:",
     "options": [
-      "Avalanche breakdown occurs",
-      "The drain current becomes zero",
-      "Strong inversion begins",
-      "The oxide breaks down"
+      "Avalanche breakdown",
+      "Punch-through",
+      "Strong inversion",
+      "Oxide breakdown"
     ],
     "answer": 2,
-    "explanation": "Threshold voltage corresponds to the onset of strong inversion."
+    "explanation": "Threshold voltage is typically defined as the gate voltage at which strong inversion occurs at the semiconductor surface.",
+    "explanationImages": [
+      "images/threshold_voltage_concept.png",
+      "images/inversion_layer.png"
+    ]
   },
-
   {
-    "id": 1008,
+    "id": 1010,
     "topic": "Semiconductors",
     "subtopic": "BJT",
     "difficulty": "Medium",
     "contributor": "Prof. JG Knot",
     "active": true,
     "image": "",
-    "question": "A BJT is primarily a:",
+    "question": "A Bipolar Junction Transistor (BJT) is primarily a:",
     "options": [
       "Voltage-controlled device",
       "Current-controlled device",
@@ -148,44 +202,9 @@
       "Optical device"
     ],
     "answer": 1,
-    "explanation": "The collector current is controlled by the base current."
-  },
-
-  {
-    "id": 1009,
-    "topic": "Semiconductors",
-    "subtopic": "Carrier Transport",
-    "difficulty": "Hard",
-    "contributor": "Prof. JG Knot",
-    "active": true,
-    "image": "",
-    "question": "The Einstein relation connects:",
-    "options": [
-      "Current and voltage",
-      "Mobility and diffusion coefficient",
-      "Bandgap and temperature",
-      "Doping and mobility"
-    ],
-    "answer": 1,
-    "explanation": "The Einstein relation links diffusion coefficient and mobility."
-  },
-
-  {
-    "id": 1010,
-    "topic": "Semiconductors",
-    "subtopic": "Band Theory",
-    "difficulty": "Easy",
-    "contributor": "Prof. JG Knot",
-    "active": true,
-    "image": "",
-    "question": "The forbidden energy region between valence and conduction bands is called:",
-    "options": [
-      "Fermi level",
-      "Bandgap",
-      "Donor level",
-      "Acceptor level"
-    ],
-    "answer": 1,
-    "explanation": "The forbidden energy region is known as the bandgap."
+    "explanation": "The collector current of a BJT is controlled by the base current, making it a current-controlled device.",
+    "explanationImages": [
+      "images/bjt_operation.png"
+    ]
   }
 ]
