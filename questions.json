@@ -1,0 +1,788 @@
+[
+  {
+    "id": 1,
+    "category": "Diode",
+    "difficulty": "easy",
+    "question": "What is the typical forward voltage drop across a silicon p-n junction diode at room temperature?",
+    "options": [
+      "0.2 V",
+      "0.7 V",
+      "1.5 V",
+      "3.3 V"
+    ],
+    "correct": 1,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 2,
+    "category": "Diode",
+    "difficulty": "easy",
+    "question": "A diode is said to be forward biased when:",
+    "options": [
+      "The p-side is connected to the negative terminal",
+      "The n-side is connected to the positive terminal",
+      "The p-side is connected to the positive terminal",
+      "No external voltage is applied"
+    ],
+    "correct": 2,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 3,
+    "category": "Diode",
+    "difficulty": "moderate",
+    "question": "In a Zener diode used as a voltage regulator, the diode is operated in which region?",
+    "options": [
+      "Forward active region",
+      "Reverse breakdown region",
+      "Cut-off region",
+      "Saturation region"
+    ],
+    "correct": 1,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 4,
+    "category": "Diode",
+    "difficulty": "moderate",
+    "question": "The reverse saturation current of a diode approximately doubles for every rise in temperature of:",
+    "options": [
+      "1\u00b0C",
+      "10\u00b0C",
+      "50\u00b0C",
+      "100\u00b0C"
+    ],
+    "correct": 1,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 5,
+    "category": "Diode",
+    "difficulty": "hard",
+    "question": "In the Shockley diode equation, what does the ideality factor 'n' primarily account for?",
+    "options": [
+      "Series resistance of the leads",
+      "Deviation from ideal recombination behaviour in the depletion region",
+      "Thermal runaway effects",
+      "Junction capacitance"
+    ],
+    "correct": 1,
+    "contributor": "Dr. Wei Chen"
+  },
+  {
+    "id": 6,
+    "category": "Diode",
+    "difficulty": "hard",
+    "question": "A varactor (varicap) diode is primarily used because its:",
+    "options": [
+      "Forward resistance is voltage dependent",
+      "Reverse breakdown voltage is very low",
+      "Depletion capacitance varies with reverse bias voltage",
+      "Forward current is temperature independent"
+    ],
+    "correct": 2,
+    "contributor": "Dr. Wei Chen"
+  },
+  {
+    "id": 7,
+    "category": "Diode",
+    "difficulty": "easy",
+    "question": "Which diode is specifically designed to emit light when forward biased?",
+    "options": [
+      "Zener diode",
+      "Photodiode",
+      "Light Emitting Diode (LED)",
+      "Schottky diode"
+    ],
+    "correct": 2,
+    "contributor": "Eng. Neha Kapoor"
+  },
+  {
+    "id": 8,
+    "category": "Diode",
+    "difficulty": "moderate",
+    "question": "A Schottky diode is formed using a junction between:",
+    "options": [
+      "Two p-type semiconductors",
+      "Two n-type semiconductors",
+      "Metal and n-type semiconductor",
+      "p-type and n-type semiconductor only"
+    ],
+    "correct": 2,
+    "contributor": "Eng. Neha Kapoor"
+  },
+  {
+    "id": 55,
+    "category": "Diode",
+    "difficulty": "moderate",
+    "question": "The figure below shows a diode's I-V characteristic. The steep drop in current marked near the label 'Vbr' on the reverse-bias side corresponds to which phenomenon?",
+    "image": "images/diode_iv_curve.svg",
+    "imageCaption": "Fig. 1 \u2014 generic diode I-V characteristic",
+    "options": [
+      "Forward conduction onset",
+      "Avalanche / Zener breakdown",
+      "Thermal runaway",
+      "Recombination current saturation"
+    ],
+    "correct": 1,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 9,
+    "category": "BJT",
+    "difficulty": "easy",
+    "question": "In an NPN transistor operating in the active region, the base-emitter junction is:",
+    "options": [
+      "Reverse biased",
+      "Forward biased",
+      "Unbiased",
+      "Short circuited"
+    ],
+    "correct": 1,
+    "contributor": "Prof. S. Rahman"
+  },
+  {
+    "id": 10,
+    "category": "BJT",
+    "difficulty": "easy",
+    "question": "The current gain of a BJT in common-emitter configuration is denoted by:",
+    "options": [
+      "alpha (\u03b1)",
+      "beta (\u03b2)",
+      "gm",
+      "lambda (\u03bb)"
+    ],
+    "correct": 1,
+    "contributor": "Prof. S. Rahman"
+  },
+  {
+    "id": 11,
+    "category": "BJT",
+    "difficulty": "moderate",
+    "question": "The relation between alpha (\u03b1) and beta (\u03b2) of a BJT is given by:",
+    "options": [
+      "\u03b2 = \u03b1 / (1 - \u03b1)",
+      "\u03b2 = \u03b1 / (1 + \u03b1)",
+      "\u03b2 = (1 - \u03b1) / \u03b1",
+      "\u03b2 = 1 - \u03b1"
+    ],
+    "correct": 0,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 12,
+    "category": "BJT",
+    "difficulty": "moderate",
+    "question": "A BJT operating in the saturation region has:",
+    "options": [
+      "Both junctions reverse biased",
+      "Both junctions forward biased",
+      "Only base-emitter junction forward biased",
+      "Only collector-base junction forward biased"
+    ],
+    "correct": 1,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 13,
+    "category": "BJT",
+    "difficulty": "hard",
+    "question": "The Early effect in a BJT refers to:",
+    "options": [
+      "Increase in base width with increasing collector-emitter voltage",
+      "Decrease in effective base width with increasing reverse bias at the collector junction",
+      "Thermal runaway due to self-heating",
+      "Reduction in emitter injection efficiency"
+    ],
+    "correct": 1,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 14,
+    "category": "BJT",
+    "difficulty": "hard",
+    "question": "In a BJT small-signal hybrid-pi model, the transconductance gm is approximately equal to:",
+    "options": [
+      "IC / VT",
+      "VT / IC",
+      "IC \u00d7 VT",
+      "1 / (IC \u00d7 VT)"
+    ],
+    "correct": 0,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 15,
+    "category": "BJT",
+    "difficulty": "easy",
+    "question": "Which BJT configuration provides both voltage and current gain and is most commonly used as an amplifier?",
+    "options": [
+      "Common base",
+      "Common collector",
+      "Common emitter",
+      "Common gate"
+    ],
+    "correct": 2,
+    "contributor": "Eng. Neha Kapoor"
+  },
+  {
+    "id": 16,
+    "category": "BJT",
+    "difficulty": "moderate",
+    "question": "In the common-collector (emitter follower) configuration, the voltage gain is approximately:",
+    "options": [
+      "Much greater than 1",
+      "Exactly 0",
+      "Close to but slightly less than 1",
+      "Negative and large"
+    ],
+    "correct": 2,
+    "contributor": "Eng. Neha Kapoor"
+  },
+  {
+    "id": 17,
+    "category": "MOSFET",
+    "difficulty": "easy",
+    "question": "MOSFET stands for:",
+    "options": [
+      "Metal Oxide Semiconductor Field Effect Transistor",
+      "Metal Organic Semiconductor Field Effect Transistor",
+      "Multi Oxide Semiconductor Field Effect Transistor",
+      "Metal Oxide Static Effect Transistor"
+    ],
+    "correct": 0,
+    "contributor": "Dr. Wei Chen"
+  },
+  {
+    "id": 18,
+    "category": "MOSFET",
+    "difficulty": "easy",
+    "question": "An enhancement-mode n-channel MOSFET conducts when:",
+    "options": [
+      "VGS is negative",
+      "VGS is below threshold voltage",
+      "VGS exceeds the threshold voltage Vt",
+      "VDS is zero"
+    ],
+    "correct": 2,
+    "contributor": "Dr. Wei Chen"
+  },
+  {
+    "id": 19,
+    "category": "MOSFET",
+    "difficulty": "moderate",
+    "question": "A MOSFET operates in the saturation (active) region when:",
+    "options": [
+      "VDS < VGS - Vt",
+      "VDS \u2265 VGS - Vt",
+      "VGS < Vt",
+      "VDS = 0"
+    ],
+    "correct": 1,
+    "contributor": "Prof. S. Rahman"
+  },
+  {
+    "id": 20,
+    "category": "MOSFET",
+    "difficulty": "moderate",
+    "question": "The gate terminal of a MOSFET is electrically isolated from the channel by:",
+    "options": [
+      "A p-n junction",
+      "A thin layer of silicon dioxide (oxide insulator)",
+      "An air gap",
+      "A metal-metal contact"
+    ],
+    "correct": 1,
+    "contributor": "Prof. S. Rahman"
+  },
+  {
+    "id": 21,
+    "category": "MOSFET",
+    "difficulty": "hard",
+    "question": "Channel length modulation in a MOSFET causes:",
+    "options": [
+      "The threshold voltage to increase with VDS",
+      "The drain current to remain perfectly constant in saturation",
+      "A finite output resistance and slight increase in ID with VDS in saturation",
+      "The device to turn off in saturation"
+    ],
+    "correct": 2,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 22,
+    "category": "MOSFET",
+    "difficulty": "hard",
+    "question": "In CMOS technology, the primary advantage of the complementary pair (PMOS + NMOS) in a logic gate is:",
+    "options": [
+      "Higher operating voltage requirement",
+      "Near-zero static power dissipation",
+      "Elimination of the need for a substrate",
+      "Doubling of switching speed only"
+    ],
+    "correct": 1,
+    "contributor": "Dr. Wei Chen"
+  },
+  {
+    "id": 23,
+    "category": "MOSFET",
+    "difficulty": "easy",
+    "question": "A depletion-mode MOSFET is normally:",
+    "options": [
+      "ON with zero gate-source voltage",
+      "OFF with zero gate-source voltage",
+      "Unable to conduct at any VGS",
+      "Only usable as a capacitor"
+    ],
+    "correct": 0,
+    "contributor": "Eng. Neha Kapoor"
+  },
+  {
+    "id": 24,
+    "category": "MOSFET",
+    "difficulty": "moderate",
+    "question": "Body effect (substrate bias effect) in a MOSFET refers to change in:",
+    "options": [
+      "Drain current with drain voltage",
+      "Threshold voltage due to source-body voltage",
+      "Gate capacitance with frequency",
+      "Channel width with temperature"
+    ],
+    "correct": 1,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 25,
+    "category": "JFET",
+    "difficulty": "easy",
+    "question": "A JFET is a __________ controlled device.",
+    "options": [
+      "Current",
+      "Voltage",
+      "Power",
+      "Frequency"
+    ],
+    "correct": 1,
+    "contributor": "Prof. S. Rahman"
+  },
+  {
+    "id": 26,
+    "category": "JFET",
+    "difficulty": "moderate",
+    "question": "In an n-channel JFET, applying a negative gate-source voltage causes the channel to:",
+    "options": [
+      "Widen, increasing drain current",
+      "Narrow, decreasing drain current",
+      "Remain unchanged",
+      "Reverse polarity"
+    ],
+    "correct": 1,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 27,
+    "category": "JFET",
+    "difficulty": "moderate",
+    "question": "The pinch-off voltage of a JFET is the value of VDS (with VGS = 0) at which:",
+    "options": [
+      "The drain current becomes zero",
+      "The drain current first reaches its maximum saturation value",
+      "The gate current becomes maximum",
+      "The device breaks down"
+    ],
+    "correct": 1,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 28,
+    "category": "JFET",
+    "difficulty": "hard",
+    "question": "The drain current equation for a JFET in the saturation region is commonly approximated by Shockley's equation, which is:",
+    "options": [
+      "ID = IDSS (1 - VGS/VP)",
+      "ID = IDSS (1 - VGS/VP)^2",
+      "ID = IDSS \u00d7 VGS / VP",
+      "ID = IDSS + VGS/VP"
+    ],
+    "correct": 1,
+    "contributor": "Dr. Wei Chen"
+  },
+  {
+    "id": 29,
+    "category": "JFET",
+    "difficulty": "easy",
+    "question": "Compared to a BJT, a JFET has:",
+    "options": [
+      "Lower input impedance",
+      "Very high input impedance",
+      "No gate terminal",
+      "Higher gate current"
+    ],
+    "correct": 1,
+    "contributor": "Eng. Neha Kapoor"
+  },
+  {
+    "id": 30,
+    "category": "Semiconductor Basics",
+    "difficulty": "easy",
+    "question": "Adding a pentavalent impurity such as phosphorus to silicon creates a:",
+    "options": [
+      "p-type semiconductor",
+      "n-type semiconductor",
+      "Intrinsic semiconductor",
+      "Insulator"
+    ],
+    "correct": 1,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 31,
+    "category": "Semiconductor Basics",
+    "difficulty": "easy",
+    "question": "In a p-type semiconductor, the majority charge carriers are:",
+    "options": [
+      "Electrons",
+      "Holes",
+      "Protons",
+      "Photons"
+    ],
+    "correct": 1,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 32,
+    "category": "Semiconductor Basics",
+    "difficulty": "moderate",
+    "question": "The energy band gap of silicon at room temperature is approximately:",
+    "options": [
+      "0.1 eV",
+      "0.7 eV",
+      "1.1 eV",
+      "5.5 eV"
+    ],
+    "correct": 2,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 33,
+    "category": "Semiconductor Basics",
+    "difficulty": "moderate",
+    "question": "As temperature increases, the conductivity of an intrinsic semiconductor:",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains constant",
+      "Becomes zero"
+    ],
+    "correct": 1,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 34,
+    "category": "Semiconductor Basics",
+    "difficulty": "hard",
+    "question": "The Fermi level in an intrinsic semiconductor lies:",
+    "options": [
+      "At the bottom of the conduction band",
+      "At the top of the valence band",
+      "Approximately at the middle of the band gap",
+      "Outside the band gap entirely"
+    ],
+    "correct": 2,
+    "contributor": "Dr. Wei Chen"
+  },
+  {
+    "id": 35,
+    "category": "Semiconductor Basics",
+    "difficulty": "hard",
+    "question": "Which mechanism describes the diffusion current in a semiconductor?",
+    "options": [
+      "Motion of carriers due to an applied electric field only",
+      "Motion of carriers from a region of higher concentration to lower concentration",
+      "Motion of carriers due to magnetic force",
+      "Motion of carriers caused solely by temperature gradients in metals"
+    ],
+    "correct": 1,
+    "contributor": "Prof. S. Rahman"
+  },
+  {
+    "id": 36,
+    "category": "Semiconductor Basics",
+    "difficulty": "easy",
+    "question": "Silicon and germanium are examples of:",
+    "options": [
+      "Compound semiconductors",
+      "Elemental semiconductors",
+      "Insulators",
+      "Superconductors"
+    ],
+    "correct": 1,
+    "contributor": "Eng. Neha Kapoor"
+  },
+  {
+    "id": 37,
+    "category": "Op-Amp",
+    "difficulty": "easy",
+    "question": "An ideal operational amplifier has:",
+    "options": [
+      "Zero input impedance and infinite output impedance",
+      "Infinite input impedance and zero output impedance",
+      "Infinite input and output impedance",
+      "Zero input and output impedance"
+    ],
+    "correct": 1,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 38,
+    "category": "Op-Amp",
+    "difficulty": "easy",
+    "question": "In an inverting amplifier with feedback resistor Rf and input resistor Rin, the closed-loop gain is:",
+    "options": [
+      "Rin / Rf",
+      "-Rf / Rin",
+      "Rf + Rin",
+      "1 + Rf/Rin"
+    ],
+    "correct": 1,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 39,
+    "category": "Op-Amp",
+    "difficulty": "moderate",
+    "question": "The concept of a 'virtual short' at the input terminals of an ideal op-amp in negative feedback means:",
+    "options": [
+      "Both input terminals are physically connected together",
+      "The voltage difference between the two input terminals is approximately zero",
+      "One input terminal is grounded permanently",
+      "There is a short circuit fault"
+    ],
+    "correct": 1,
+    "contributor": "Prof. S. Rahman"
+  },
+  {
+    "id": 40,
+    "category": "Op-Amp",
+    "difficulty": "moderate",
+    "question": "A non-inverting amplifier with feedback resistor Rf and ground resistor Rg has a closed-loop gain of:",
+    "options": [
+      "-Rf / Rg",
+      "1 + Rf/Rg",
+      "Rg / Rf",
+      "Rf \u00d7 Rg"
+    ],
+    "correct": 1,
+    "contributor": "Dr. Wei Chen"
+  },
+  {
+    "id": 41,
+    "category": "Op-Amp",
+    "difficulty": "hard",
+    "question": "The gain-bandwidth product (GBW) of an op-amp implies that:",
+    "options": [
+      "Gain and bandwidth can both be increased independently without limit",
+      "The product of closed-loop gain and bandwidth remains approximately constant",
+      "Bandwidth is independent of the amplifier's gain setting",
+      "GBW only applies to power amplifiers"
+    ],
+    "correct": 1,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 42,
+    "category": "Op-Amp",
+    "difficulty": "hard",
+    "question": "Slew rate of an op-amp is defined as:",
+    "options": [
+      "The maximum rate of change of output voltage per unit time",
+      "The DC gain of the amplifier",
+      "The input offset voltage",
+      "The common mode rejection ratio"
+    ],
+    "correct": 0,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 43,
+    "category": "Power Electronics",
+    "difficulty": "easy",
+    "question": "An SCR (Silicon Controlled Rectifier) has how many terminals?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correct": 1,
+    "contributor": "Eng. Neha Kapoor"
+  },
+  {
+    "id": 44,
+    "category": "Power Electronics",
+    "difficulty": "moderate",
+    "question": "An SCR, once triggered into conduction, can typically be turned off by:",
+    "options": [
+      "Removing the gate signal only",
+      "Reducing the anode current below the holding current",
+      "Increasing the gate voltage further",
+      "Reversing only the gate polarity"
+    ],
+    "correct": 1,
+    "contributor": "Prof. S. Rahman"
+  },
+  {
+    "id": 45,
+    "category": "Power Electronics",
+    "difficulty": "moderate",
+    "question": "IGBT combines the input characteristics of a MOSFET with the output characteristics of a:",
+    "options": [
+      "JFET",
+      "BJT",
+      "Diode",
+      "UJT"
+    ],
+    "correct": 1,
+    "contributor": "Dr. Wei Chen"
+  },
+  {
+    "id": 46,
+    "category": "Power Electronics",
+    "difficulty": "hard",
+    "question": "In a buck (step-down) DC-DC converter operating in continuous conduction mode, the output voltage is related to the input voltage and duty cycle D by:",
+    "options": [
+      "Vout = Vin / D",
+      "Vout = Vin \u00d7 D",
+      "Vout = Vin \u00d7 (1 - D)",
+      "Vout = Vin / (1 - D)"
+    ],
+    "correct": 1,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 47,
+    "category": "Power Electronics",
+    "difficulty": "hard",
+    "question": "A TRIAC is best described as a device equivalent to:",
+    "options": [
+      "A single SCR",
+      "Two SCRs connected in anti-parallel that can conduct in both directions",
+      "A power MOSFET with reverse blocking",
+      "A simple rectifier diode"
+    ],
+    "correct": 1,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 48,
+    "category": "Power Electronics",
+    "difficulty": "easy",
+    "question": "A UJT (Unijunction Transistor) is most commonly used in circuits for:",
+    "options": [
+      "High-frequency amplification",
+      "Relaxation oscillators / triggering circuits",
+      "Voltage regulation",
+      "Digital logic gates"
+    ],
+    "correct": 1,
+    "contributor": "Eng. Neha Kapoor"
+  },
+  {
+    "id": 49,
+    "category": "IC Fabrication",
+    "difficulty": "easy",
+    "question": "Photolithography in IC fabrication is primarily used to:",
+    "options": [
+      "Grow the silicon ingot",
+      "Transfer a circuit pattern onto the wafer surface using light and photoresist",
+      "Dope the wafer with impurities directly",
+      "Package the finished chip"
+    ],
+    "correct": 1,
+    "contributor": "Dr. Wei Chen"
+  },
+  {
+    "id": 50,
+    "category": "IC Fabrication",
+    "difficulty": "moderate",
+    "question": "The process of introducing controlled impurity atoms into a semiconductor wafer using high-energy accelerated ions is called:",
+    "options": [
+      "Diffusion",
+      "Ion implantation",
+      "Epitaxy",
+      "Oxidation"
+    ],
+    "correct": 1,
+    "contributor": "Prof. R. Iyer"
+  },
+  {
+    "id": 51,
+    "category": "IC Fabrication",
+    "difficulty": "moderate",
+    "question": "Chemical Vapor Deposition (CVD) in semiconductor manufacturing is chiefly used to:",
+    "options": [
+      "Etch away unwanted silicon",
+      "Deposit thin films of material onto the wafer surface",
+      "Cut the wafer into individual dies",
+      "Test the finished device electrically"
+    ],
+    "correct": 1,
+    "contributor": "Prof. S. Rahman"
+  },
+  {
+    "id": 52,
+    "category": "IC Fabrication",
+    "difficulty": "hard",
+    "question": "In CMOS fabrication, a 'well' (n-well or p-well) is created primarily to:",
+    "options": [
+      "Provide mechanical support to the wafer",
+      "Host transistors of the opposite polarity within a substrate of a given type",
+      "Act as the final metal interconnect layer",
+      "Replace the need for oxidation entirely"
+    ],
+    "correct": 1,
+    "contributor": "Dr. A. Sharma"
+  },
+  {
+    "id": 53,
+    "category": "IC Fabrication",
+    "difficulty": "hard",
+    "question": "Chemical-Mechanical Polishing (CMP) is used in IC fabrication mainly to:",
+    "options": [
+      "Grow a thermal oxide layer",
+      "Planarize the wafer surface between processing steps",
+      "Implant dopant ions",
+      "Convert polysilicon into single-crystal silicon"
+    ],
+    "correct": 1,
+    "contributor": "Dr. Wei Chen"
+  },
+  {
+    "id": 54,
+    "category": "IC Fabrication",
+    "difficulty": "easy",
+    "question": "Which material is most commonly used as the starting substrate for mainstream digital IC fabrication?",
+    "options": [
+      "Gallium arsenide",
+      "Single-crystal silicon",
+      "Germanium",
+      "Copper"
+    ],
+    "correct": 1,
+    "contributor": "Eng. Neha Kapoor"
+  },
+  {
+    "id": 56,
+    "category": "BJT",
+    "difficulty": "moderate",
+    "question": "For a BJT in the active region, which expression correctly relates the collector current I<sub>C</sub> to the base current I<sub>B</sub> using the current gain \u03b2?",
+    "options": [
+      "I<sub>C</sub> = \u03b2 \u00d7 I<sub>B</sub>",
+      "I<sub>C</sub> = I<sub>B</sub> / \u03b2",
+      "I<sub>C</sub> = I<sub>B</sub> + \u03b2",
+      "I<sub>C</sub> = \u03b2<sup>2</sup> \u00d7 I<sub>B</sub>"
+    ],
+    "correct": 0,
+    "contributor": "Dr. A. Sharma"
+  }
+]
