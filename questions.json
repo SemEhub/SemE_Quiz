@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "category": "MOS Capacitor",
+    "difficulty": "moderate",
+    "question": "The figure shows the high-frequency C-V curve of a MOS capacitor (at T = 300 K) with Φms = 0 V and no oxide charges. The flat-band, inversion, and accumulation conditions are represented, respectively, by the points",
+    "image": "images/q01_mos_cv_curve.png",
+    "imageCaption": "High-frequency C-V curve of a MOS capacitor with points P, Q, R marked",
+    "options": [
+      "P, Q, R",
+      "Q, R, P",
+      "R, P, Q",
+      "Q, R, P"
+    ],
+    "correct": 1,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2019"
+  },
+  {
+    "id": 2,
+    "category": "MOSFET",
+    "difficulty": "moderate",
+    "question": "In the circuits shown, the threshold voltage of each nMOS transistor is 0.6 V. Ignoring the effect of channel length modulation and body bias, the values of Vout1 and Vout2, respectively, in volts, are",
+    "image": "images/q02_nmos_cascaded_circuits.png",
+    "imageCaption": "Two nMOS transistor circuits used to determine Vout1 and Vout2",
+    "options": [
+      "1.8 and 1.2",
+      "2.4 and 2.4",
+      "1.8 and 2.4",
+      "2.4 and 1.2"
+    ],
+    "correct": 2,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2019"
+  },
+  {
+    "id": 3,
+    "category": "MOSFET",
+    "difficulty": "hard",
+    "question": "In the circuit shown, V1 = 0 and V2 = Vdd. The other relevant parameters are mentioned in the figure. Ignoring the effect of channel length modulation and the body effect, the value of Iout is ___ mA (rounded off to 1 decimal place).",
+    "image": "images/q03_current_mirror_circuit.png",
+    "imageCaption": "Current-mirror-based circuit with transistor W/L ratios and output current Iout",
+    "options": [
+      "5.6 to 5.9",
+      "4.5 to 5.0",
+      "5.1 to 6.5",
+      "5.9 to 6.1"
+    ],
+    "correct": 3,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2019"
+  },
+  {
+    "id": 4,
+    "category": "Semiconductor Basics",
+    "difficulty": "easy",
+    "question": "A single crystal intrinsic semiconductor is at a temperature of 300 K with effective density of states for holes twice that of electrons. The thermal voltage is 26 mV. The intrinsic Fermi level is shifted from the mid-bandgap energy level by",
+    "image": "",
+    "imageCaption": "",
+    "options": [
+      "18.08 meV",
+      "9.01 meV",
+      "13.45 meV",
+      "26.90 meV"
+    ],
+    "correct": 0,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2020"
+  },
+  {
+    "id": 5,
+    "category": "MOS Capacitor",
+    "difficulty": "hard",
+    "question": "The band diagram of a p-type semiconductor with a band gap of 1 eV is shown. Using this semiconductor, a MOS capacitor having VTH of -0.16 V, COX of 100 nF/cm², and metal work function of 3.87 eV is fabricated. There is no charge within the oxide. If the voltage across the capacitor is VTH, the magnitude of depletion charge per unit area (in C/cm²) is",
+    "image": "images/q05_band_diagram.png",
+    "imageCaption": "Band diagram of the p-type semiconductor showing vacuum level, EC, Ei, EFS, and EV",
+    "options": [
+      "1.70 × 10⁻⁸",
+      "0.52 × 10⁻⁸",
+      "1.41 × 10⁻⁸",
+      "0.93 × 10⁻⁸"
+    ],
+    "correct": 0,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2020"
+  },
+  {
+    "id": 6,
+    "category": "Solar Cell",
+    "difficulty": "hard",
+    "question": "A p-n junction solar cell of area 1 cm², illuminated uniformly with 100 mW/cm², has the following parameters: efficiency = 15%, open circuit voltage = 0.7 V, fill factor = 0.8, and thickness = 200 µm. The average optical generation rate (in cm⁻³s⁻¹) is",
+    "image": "",
+    "imageCaption": "",
+    "options": [
+      "0.84 × 10¹⁹",
+      "5.57 × 10¹⁹",
+      "1.04 × 10¹⁹",
+      "83.6 × 10¹⁹"
+    ],
+    "correct": 0,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2020"
+  },
+  {
+    "id": 7,
+    "category": "MOSFET",
+    "difficulty": "moderate",
+    "question": "An enhancement MOSFET of threshold voltage 3 V is being used in the sample-and-hold circuit shown. Assume that the substrate of the MOS device is connected to -10 V. If the input V1 lies between -10 V and 10 V, the minimum and the maximum values of VG required for proper sampling and holding, respectively, are",
+    "image": "images/q07_sample_hold_circuit.png",
+    "imageCaption": "Sample-and-hold circuit using an enhancement MOSFET switch",
+    "options": [
+      "3 V and -3 V",
+      "10 V and -10 V",
+      "13 V and -7 V",
+      "10 V and -13 V"
+    ],
+    "correct": 2,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2020"
+  },
+  {
+    "id": 8,
+    "category": "Semiconductor Basics",
+    "difficulty": "moderate",
+    "question": "A bar of silicon is doped with a boron concentration of 10¹⁶ cm⁻³ and is assumed to be fully ionized. It is exposed to light such that electron-hole pairs are generated throughout the volume of the bar at the rate of 10²⁰ cm⁻³s⁻¹. If the recombination lifetime is 100 µs, the intrinsic carrier concentration of silicon is 10¹⁰ cm⁻³, and assuming 100% ionization of boron, the approximate product of steady-state electron and hole concentrations due to this light exposure is",
+    "image": "",
+    "imageCaption": "",
+    "options": [
+      "10²⁰ cm⁻⁶",
+      "2 × 10²⁰ cm⁻⁶",
+      "10³² cm⁻⁶",
+      "2 × 10³² cm⁻⁶"
+    ],
+    "correct": 2,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2021"
+  },
+  {
+    "id": 9,
+    "category": "Diode",
+    "difficulty": "hard",
+    "question": "The doping in the P region is 5 × 10¹⁶ cm⁻³ (length = 1.2 µm) and the doping in the N region is 10¹⁷ cm⁻³ (length = 0.2 µm). The parameters given are: built-in voltage (Φbi) = 0.8 V, electron charge (q) = 1.6 × 10⁻¹⁹ C, vacuum permittivity (ε0) = 8.85 × 10⁻¹² F/m, and relative permittivity of silicon (εSi) = 12. The magnitude of the reverse bias voltage that would completely deplete one of the two regions prior to the other is",
+    "image": "",
+    "imageCaption": "",
+    "options": [
+      "7.9 to 8.1",
+      "8.1 to 8.4",
+      "8.0 to 8.9",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2021"
+  },
+  {
+    "id": 10,
+    "category": "Semiconductor Basics",
+    "difficulty": "moderate",
+    "question": "In a non-degenerate bulk semiconductor with electron density n = 10¹⁶ cm⁻³, the value of EC - EFn = 200 meV, where EC and EFn denote the bottom of the conduction band energy and the electron Fermi level energy, respectively. Assume the thermal voltage is 26 meV and the intrinsic carrier concentration is 10¹⁰ cm⁻³. For n = 0.5 × 10¹⁶ cm⁻³, the closest approximation of the value of (EC - EFn), among the given options, is",
+    "image": "",
+    "imageCaption": "",
+    "options": [
+      "226 meV",
+      "174 meV",
+      "218 meV",
+      "182 meV"
+    ],
+    "correct": 2,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2022"
+  },
+  {
+    "id": 11,
+    "category": "MOSFET",
+    "difficulty": "moderate",
+    "question": "The ideal long-channel nMOSFET and pMOSFET devices shown in the circuits have threshold voltages of 1 V and -1 V, respectively. The MOSFET substrates are connected to their respective sources. Ignore leakage currents and assume that the capacitors are initially discharged. For the applied voltages as shown, the steady-state voltages are",
+    "image": "images/q11_nmos_pmos_circuits.jpeg",
+    "imageCaption": "nMOSFET and pMOSFET switch-capacitor circuits used to find V1 and V2",
+    "options": [
+      "V1 = 5V, V2 = 5V",
+      "V1 = 5V, V2 = 4V",
+      "V1 = 4V, V2 = 5V",
+      "V1 = 5V, V2 = -5V"
+    ],
+    "correct": 2,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2022"
+  },
+  {
+    "id": 12,
+    "category": "MOS Capacitor",
+    "difficulty": "moderate",
+    "question": "An ideal MOS capacitor (p-type semiconductor) is shown in the figure. The MOS capacitor is under strong inversion with VG = 2 V. The corresponding inversion charge density (QIN) is 2.2 µC/cm². Assume the oxide capacitance per unit area is COX = 1.7 µF/cm². For VG = 4 V, the value of QIN is ___ µC/cm²",
+    "image": "images/q12_mos_capacitor_structure.png",
+    "imageCaption": "Cross-section of an ideal metal-oxide-semiconductor (MOS) capacitor",
+    "options": [
+      "0.5 to 1.5",
+      "5.0 to 5.3",
+      "5.5 to 5.7",
+      "5.7 to 5.9"
+    ],
+    "correct": 2,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2022"
+  },
+  {
+    "id": 13,
+    "category": "MOSFET",
+    "difficulty": "hard",
+    "question": "Consider an ideal long-channel nMOSFET (enhancement-mode) with gate length 10 µm and width 100 µm. The product of electron mobility (µn) and oxide capacitance per unit area (COX) is µnCOX = 1 mA/V². The threshold voltage of the transistor is 1 V. For a gate-to-source voltage VGS = [2 - sin(2t)] V and drain-to-source voltage VDS = 1 V (substrate connected to the source), the maximum value of the drain-to-source current is",
+    "image": "",
+    "imageCaption": "",
+    "options": [
+      "40 mA",
+      "20 mA",
+      "15 mA",
+      "5 mA"
+    ],
+    "correct": 2,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2022"
+  },
+  {
+    "id": 14,
+    "category": "Semiconductor Basics",
+    "difficulty": "easy",
+    "question": "Which of the following statements regarding semiconductor devices is correct?",
+    "image": "",
+    "imageCaption": "",
+    "options": [
+      "Electrons and holes are equal in density in an intrinsic semiconductor at equilibrium.",
+      "The collector region is generally more heavily doped than the base region in a BJT.",
+      "Total current is not spatially constant in a two-terminal electronic device in the dark under steady-state conditions.",
+      "The mobility of electrons always increases with temperature in silicon beyond 300 K."
+    ],
+    "correct": 0,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2022"
+  },
+  {
+    "id": 15,
+    "category": "BJT",
+    "difficulty": "hard",
+    "question": "The Zener diode in the circuit shown has a breakdown voltage of 5 V. The current gain β of the transistor in the active region is 99. Ignore the base-emitter voltage drop VBE. The current through the 20 Ω resistor, in milliamperes, is",
+    "image": "images/q15_zener_bjt_circuit.png",
+    "imageCaption": "Zener-referenced BJT biasing circuit with 7 kΩ, 10 Ω, and 20 Ω resistors",
+    "options": [
+      "0.15 to 0.18",
+      "0.24 to 0.26",
+      "0.21 to 0.25",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explanation": "",
+    "contributor": "R. V Gautam, Tezpur University, India",
+    "source": "GATE 2023"
+  }
+]
